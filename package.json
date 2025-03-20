@@ -1,6 +1,6 @@
 {
   "name": "autofolder",
-  "publisher": "Nishant Golakiya",
+  "publisher": "nishantgolakiya",
   "displayName": "AutoFolder",
   "description": "AutoFolder is a VS Code extension designed to streamline the process of creating complex folder structures for your projects.",
   "version": "1.0.0",
@@ -11,6 +11,13 @@
     "Other"
   ],
   "main": "./dist/extension.js",
+  "activationEvents": [
+    "onCommand:autofolder.createFolderStructure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishant0192/AutoFolder"
+  },
   "contributes": {
     "commands": [
       {
