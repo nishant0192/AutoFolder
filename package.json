@@ -18,6 +18,7 @@
     "type": "git",
     "url": "https://github.com/nishant0192/AutoFolder"
   },
+  "icon": "images/icon.png",
   "contributes": {
     "commands": [
       {
